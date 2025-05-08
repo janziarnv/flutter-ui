@@ -1,0 +1,13 @@
+name: flutter_app
+description: A simple Flutter app demonstrating basic widgets
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+flutter:
+  assets:
+    - assets/images/
+    
+environment:
+  sdk: ">=3.7.0 <4.0.0"
