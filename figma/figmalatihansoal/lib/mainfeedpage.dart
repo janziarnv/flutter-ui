@@ -49,12 +49,12 @@ class _MainFeedPageState extends State<MainFeedPage> {
           ),
           // Post Feed
           PostWidget(
-            username: 'JANZIAR_NANDA',
-            location: 'JEPARA, INDONESIA',
+            username: 'Janziarnanda',
+            location: 'Jepara, Indonesia',
             image: 'assets/images/postingan.jpeg',
-            caption: 'The game in Japan was amazing and I want to share some photos',
-            likes: '56,686',
-            comments: 'Liked by WINDAH_BASUDARA and 44,686 others',
+            caption: 'Tertawa tanpa beban... seperti tugas kuliah yang pura-pura lupa.',
+            likes: '9,876',
+            comments: 'Liked by Gojo and 10,000 others',
           ),
         ],
       ),
@@ -74,7 +74,7 @@ class _MainFeedPageState extends State<MainFeedPage> {
             label: 'Search',
           ),
           BottomNavigationBarItem(
-            icon: Image.asset('assets/images/add_post.png', width: 30, height: 30), // Add Post Icon
+            icon: Image.asset('assets/images/addpost.png', width: 30, height: 30), // Add Post Icon
             label: 'Add Post',
           ),
           BottomNavigationBarItem(

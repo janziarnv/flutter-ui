@@ -88,7 +88,7 @@ class LoginDetailPage extends StatelessWidget {
             // Sign Up Button
             TextButton(
               onPressed: () {},
-              child: Text("Don't have an account? Sign up."),
+              child: Text("Don't have an account yet? Sign up."),
             ),
           ],
         ),

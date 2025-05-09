@@ -25,7 +25,7 @@ class LoginPage extends StatelessWidget {
 
             // Nama Pengguna
             Text(
-              'janziar nanda',
+              'janziar Nanda',
               style: TextStyle(fontSize: 24, fontWeight: FontWeight.bold),
             ),
             SizedBox(height: 20),
@@ -51,7 +51,7 @@ class LoginPage extends StatelessWidget {
             ),
             TextButton(
               onPressed: () {},
-              child: Text("Don't have an account? Sign up."),
+              child: Text("Don't have an account yet? Sign up."),
             ),
           ],
         ),
